@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.moodle.cisionline"
         versionCode = "20230"
         version   = "3.4.2">
-    <name>Moodle Mobile</name>
+   <name>Tadawul Exams</name>
 
     <description>
-        Moodle Mobile official app
+        Tadawul Exams Official App
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+     <author href="https://www.TadawulExams.com" email="admin@tadawul.academy">
+        Tadawul Academy FZE
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -118,11 +118,7 @@
     </platform>
 
     <gap:plugin name="cordova-plugin-camera" source="npm" version="2.4.1" />
-    <gap:plugin name="cordova-plugin-media-capture" source="npm" version="1.4.3">
-        <param name="CAMERA_USAGE_DESCRIPTION" value="We'd like to access your camera to let you take a photo"/>
-        <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="We'd like to access your photo library to let you pick a photo"/>
-        <param name="MICROPHONE_USAGE_DESCRIPTION" value="We'd like to access your microphone to let you record an audio"/>
-    </gap:plugin>
+    
     <gap:plugin name="cordova-plugin-device" source="npm" version="1.1.6" />
     <gap:plugin name="cordova-plugin-file" source="npm" version="4.3.3" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" version="1.6.3" />
@@ -148,7 +144,7 @@
     <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
 
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="true" />
+         <application android:debuggable="false" />
     </gap:config-file>
 
     <!-- See MOBILE-892 -->
