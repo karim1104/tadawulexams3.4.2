@@ -44,7 +44,7 @@
     <preference name="load-url-timeout" value="60000" />
     <preference name="AppendUserAgent" value="MoodleMobile" />
     <preference name="android-minSdkVersion" value="14" />
-    <preference name="android-targetSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="27" />
     <preference name="android-installLocation" value="auto" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
@@ -144,7 +144,7 @@
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" version="2.2.1" />
     <gap:plugin name="cordova-plugin-zip" source="npm" version="3.1.0" />
-    
+    <gap:plugin name="cordova-plugin-local-notifications-mm" source="npm" />
     <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
     <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
 
