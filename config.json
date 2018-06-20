@@ -2,7 +2,7 @@
     "app_id" : "com.moodle.cisionline",
     "appname": "Tadawul Exams",
     "desktopappname": "Tadawul Exams",
-    "versioncode" : "2023",
+    "versioncode" : "30420",
     "versionname" : "3.4.2",
     "cache_expiration_time" : 300000,
     "default_lang" : "en",
