@@ -1,0 +1,5 @@
+<preference name="android-targetSdkVersion" value="27" />
+
+<gap:plugin name="cordova-android-support-gradle-release" source="npm" >
+        <variable name = "ANDROID_SUPPORT_VERSION" value = "27.1.0" /> <!--forces plugins to use same version of android support library-->
+    </gap:plugin>
