@@ -44,7 +44,7 @@
     <preference name="load-url-timeout" value="60000" />
     <preference name="AppendUserAgent" value="MoodleMobile" />
     <preference name="android-minSdkVersion" value="14" />
-    <preference name="android-targetSdkVersion" value="26" />
+    <preference name="android-targetSdkVersion" value="27" />
     <preference name="android-installLocation" value="auto" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
@@ -54,7 +54,7 @@
     <preference name="SplashMaintainAspectRatio" value="true" />
 	
 	 <gap:plugin name="cordova-android-support-gradle-release" source="npm" >
-        <variable name = "ANDROID_SUPPORT_VERSION" value = "26.0.1" /> <!--forces plugins to use same version of android support library-->
+        <variable name = "ANDROID_SUPPORT_VERSION" value = "27.1.0" /> <!--forces plugins to use same version of android support library-->
     </gap:plugin>
 
     <feature name="StatusBar">
