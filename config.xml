@@ -34,7 +34,7 @@
 
     <allow-intent href="*" />
 
-    <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="phonegap-version" value="cli-6.5.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
@@ -124,7 +124,7 @@
 
     
     <gap:plugin name="cordova-plugin-device" source="npm" version="1.1.6" />
-    <gap:plugin name="cordova-plugin-file" source="npm" version="6.0.0" />
+    <gap:plugin name="cordova-plugin-file" source="npm" version="5.0.0" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" version="1.7.0" />
     <gap:plugin name="cordova-plugin-globalization" source="npm" version="1.0.7" />
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" version="1.7.1" />
